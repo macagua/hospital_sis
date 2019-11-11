@@ -1,6 +1,6 @@
 [![Python 3.7](https://img.shields.io/badge/Python-3.7-blue)](https://www.python.org/downloads/release/python-375/)
-[![LGPL-3.0](https://img.shields.io/github/license/macagua/my_conferences.svg)](https://github.com/macagua/my_conferences/blob/master/LICENSE)
-[![Tech Doc](http://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](http://www.erpish.com/odoo/step-by-step-tutorial-for-how-to-create-a-hello-world-application-for-odoo/)
+[![LGPL-3.0](https://img.shields.io/github/license/macagua/hospital_sis.svg)](https://github.com/macagua/hospital_sis/blob/master/LICENSE)
+[![Tech Doc](http://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.youtube.com/watch?v=ibwZs-dL5H8)
 [![Help](http://img.shields.io/badge/master-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/forum/help-1)
 
 My conferences
@@ -28,25 +28,25 @@ Install
 Download the source code:
 
 ```
-$ git clone https://github.com/macagua/my_conferences.git my_conferences
+$ git clone https://github.com/macagua/hospital_sis.git
 ```
 
-Move ``my_conferences`` folder into ``extra-addons`` Odoo directory:
+Move ``hospital_sis`` folder into ``extra-addons`` Odoo directory:
 
 ```
-$ mv my_conferences /full/path/to/extra-addons/
+$ mv hospital_sis /full/path/to/extra-addons/
 ```
 
-Restart the Odoo instance server, login and got to **Apps** > **My conferences** > **Install**
+Restart the Odoo instance server, login and got to **Apps** > **Sistema de Información Hospitalario SIS-1** > **Install**
 
-![Install 'My conferences' Module](https://raw.githubusercontent.com/macagua/my_conferences/master/static/description/install_module.png "Install 'My conferences' Module")
+![Install 'Sistema de Información Hospitalario SIS-1' Module](https://raw.githubusercontent.com/macagua/hospital_sis/master/static/description/install_module.png "Install 'Sistema de Información Hospitalario SIS-1' Module")
 
-Then go to Main menu at left top corner and click to **Manage Conferences**.
+Then go to Main menu at left top corner and click to **Hospital**.
 
-![Access 'Manage Conferences' Menu](https://raw.githubusercontent.com/macagua/my_conferences/master/static/description/manage_conferences.png "Access 'Manage Conferences' Menu")
+![Access 'Hospital' Menu](https://raw.githubusercontent.com/macagua/hospital_sis/master/static/description/manage_hospital.png "Access 'Hospital' Menu")
 
 
 References
 ----------
 
-- [Step by Step Tutorial for How to create a Hello World Application for Odoo!](http://www.erpish.com/odoo/step-by-step-tutorial-for-how-to-create-a-hello-world-application-for-odoo/).
+- [Curso de programación en Odoo: Clase 05 Crear un Sistema Hospitalario - Chile - Youtube](https://www.youtube.com/watch?v=ibwZs-dL5H8).
