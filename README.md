@@ -3,15 +3,22 @@
 [![Tech Doc](http://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.youtube.com/watch?v=ibwZs-dL5H8)
 [![Help](http://img.shields.io/badge/master-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/forum/help-1)
 
-My conferences
---------------
+Sistema de Información Hospitalario SIS-1
+-----------------------------------------
 
-My conferences, is an Odoo 13 module to ease the management of conferences, 
-you can manage registration of guests as well as resources.
+Sistema de Información Hospitalario SIS-1, is an Odoo 13 module to ease the 
+management of hospitals, you can manage registration of patients and her 
+medical appointments, etc.
 
 This Odoo module let you manage:
 
-- manage conferences.
+- manage hospitals.
+
+- manage specialties.
+
+- manage medical appointments.
+
+- manage patients using 'res_company' model overriding with new fields added.
 
 
 Dependencies
