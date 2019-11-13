@@ -50,7 +50,7 @@ Restart the Odoo instance server, login and got to **Apps** > **Sistema de Infor
 
 Then go to Main menu at left top corner and click to **Hospital**.
 
-![Access 'Hospital' Menu](https://raw.githubusercontent.com/macagua/hospital_sis/master/static/description/manage_hospital.png "Access 'Hospital' Menu")
+![Access 'Hospital' Menu](https://raw.githubusercontent.com/macagua/hospital_sis/master/static/description/manage_app.png "Access 'Hospital' Menu")
 
 
 References
