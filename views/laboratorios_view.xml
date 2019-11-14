@@ -41,11 +41,11 @@
         <field name="res_model">sis.laboratorios</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
-            <p class="oe_view_nocontent_create">
-                ¡Su gestión de laboratorios en el hospital están vacío!
+            <p class="o_view_nocontent_smiling_face">
+                ¡Cree un laboratorio del hospital!
             </p>
             <p>
-                Cree su primer laboratorio del hospital, ¡Ahora!
+                Cree un laboratorio asociado a un hospital, para llevar un censo de los laboratorios disponibles en el hospital.
             </p>
         </field>
     </record>

@@ -39,11 +39,11 @@
         <field name="res_model">sis.consultas</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
-            <p class="oe_view_nocontent_create">
-                ¡Su gestión de consultas generales están vacío!
+            <p class="o_view_nocontent_smiling_face">
+                ¡Cree una consulta general!
             </p>
             <p>
-                Cree su primer registro de consultas generales, ¡Ahora!
+                Cree una consulta general en un hospital, para llevar un control de las mismas.
             </p>
         </field>
     </record>
