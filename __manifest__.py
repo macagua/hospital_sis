@@ -27,6 +27,7 @@ Nota: Necesita Ventas.
     'license': 'AGPL-3',
     'depends': ['sale', 'base_setup', 'product', 'analytic'],
     'data': [
+        'security/security.xml',
         'security/ir.model.access.csv',
         'views/partner_view.xml',
         'views/hospital_view.xml',
