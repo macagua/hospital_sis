@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- consultas form view -->
+    <record id="sis_consultas_form_view" model="ir.ui.view">
+        <field name="name">sis_consultas_form</field>
+        <field name="model">sis.consultas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="consultas">
+                <sheet>
+                    <group>
+                        <field name="nombre"/>
+                        <field name="partner_id"/>
+                        <field name="especialidades"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- consultas tree view -->
+    <record id="sis_consultas_tree_view" model="ir.ui.view">
+        <field name="name">sis_consultas_tree</field>
+        <field name="model">sis.consultas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="consultas">
+                <field name="nombre"/>
+                <field name="partner_id"/>
+                <field name="especialidades"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- consultas actions window -->
+    <record id="sis_consultas_action" model="ir.actions.act_window">
+        <field name="name">Consultas generales</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sis.consultas</field>
+        <field name="view_mode">tree,form</field>
+        <!-- <field name="help" type="html">
+            <p class="oe_view_nocontent_create"> -->
+                <!-- Add Text Here -->
+            <!-- </p><p> -->
+                <!-- More details about what a user can do with this object will be OK -->
+            <!-- </p>
+        </field> -->
+    </record>
+
+    <!-- consultas menu -->
+    <!-- This Menu Item Must have a parent -->
+    <menuitem id="sis_menu_consultas" name="Consultas" parent="sis_menu" sequence="10"/>
+    <!-- This Menu Item will show at the 'sis_menu_consultas' parent
+         menu and using the 'sis_consultas_action' action. -->
+    <menuitem id="sis_menu_consultas_hospital" name="Consultas generales" parent="sis_menu_consultas" action="sis_consultas_action" sequence="10"/>
+
+</odoo>

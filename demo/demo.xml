@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Hospital -->
+        <record id="hospital0" model="sis.hospital">
+            <field name="nombre">Sor Juana Ines de la Cruz</field>
+            <field name="country_id" ref="base.cl"/>
+        </record>
+        <record id="hospital1" model="sis.hospital">
+            <field name="nombre">Hospital Universitario</field>
+            <field name="country_id" ref="base.cl"/>
+        </record>
+
+        <!-- Especialidades -->
+        <record id="especialidades0" model="sis.especialidades">
+            <field name="nombre">Angiología</field>
+        </record>
+        <record id="especialidades1" model="sis.especialidades">
+            <field name="nombre">Cardiología</field>
+        </record>
+        <record id="especialidades2" model="sis.especialidades">
+            <field name="nombre">Ecocardiografía</field>
+        </record>
+        <record id="especialidades3" model="sis.especialidades">
+            <field name="nombre">Hematología</field>
+        </record>
+        <record id="especialidades4" model="sis.especialidades">
+            <field name="nombre">Gastroenterología</field>
+        </record>
+        <record id="especialidades5" model="sis.especialidades">
+            <field name="nombre">Ginecología</field>
+        </record>
+        <record id="especialidades6" model="sis.especialidades">
+            <field name="nombre">Nefrología</field>
+        </record>
+        <record id="especialidades7" model="sis.especialidades">
+            <field name="nombre">Neonatología</field>
+        </record>
+        <record id="especialidades8" model="sis.especialidades">
+            <field name="nombre">Neumología</field>
+        </record>
+        <record id="especialidades9" model="sis.especialidades">
+            <field name="nombre">Oncología</field>
+        </record>
+        <record id="especialidades10" model="sis.especialidades">
+            <field name="nombre">Obstetricia</field>
+        </record>
+        <record id="especialidades11" model="sis.especialidades">
+            <field name="nombre">Reumatología</field>
+        </record>
+
+    </data>
+</odoo>
