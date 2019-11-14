@@ -31,6 +31,7 @@ Nota: Necesita Ventas.
         'views/partner_view.xml',
         'views/hospital_view.xml',
         'views/especialidades_view.xml',
+        'views/laboratorios_view.xml',
         'views/consultas_view.xml',
     ],
     'images': ['static/description/icon.png'],
