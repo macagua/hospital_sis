@@ -38,13 +38,14 @@
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">sis.consultas</field>
         <field name="view_mode">tree,form</field>
-        <!-- <field name="help" type="html">
-            <p class="oe_view_nocontent_create"> -->
-                <!-- Add Text Here -->
-            <!-- </p><p> -->
-                <!-- More details about what a user can do with this object will be OK -->
-            <!-- </p>
-        </field> -->
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                ¡Su gestión de consultas generales están vacío!
+            </p>
+            <p>
+                Cree su primer registro de consultas generales, ¡Ahora!
+            </p>
+        </field>
     </record>
 
     <!-- consultas menu -->

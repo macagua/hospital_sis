@@ -4,7 +4,7 @@
 from odoo import fields
 from odoo.osv import osv
 
-class consultas(osv.osv):
+class Consultas(osv.osv):
     # the model name (in dot-notation, module namespace)
     _name = 'sis.consultas'
     # field to use for labeling records
@@ -16,4 +16,4 @@ class consultas(osv.osv):
     partner_id = fields.Many2one(comodel_name="res.partner", string="Paciente", ondelete='restrict', required=False)
     especialidades = fields.Many2one(comodel_name="sis.especialidades", string="Especialidad", ondelete='restrict', required=False)
 
-consultas();
+Consultas();

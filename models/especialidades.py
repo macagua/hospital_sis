@@ -4,7 +4,7 @@
 from odoo import fields
 from odoo.osv import osv
 
-class especialidades(osv.osv):
+class Especialidades(osv.osv):
     # the model name (in dot-notation, module namespace)
     _name = 'sis.especialidades'
     # field to use for labeling records
@@ -16,4 +16,4 @@ class especialidades(osv.osv):
 
     nombre = fields.Char(string="Nombre", size=80, required=True, help='Ingrese el nombre de la especialidad')
 
-especialidades();
+Especialidades();
