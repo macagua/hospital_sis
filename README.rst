@@ -134,6 +134,17 @@ Then go to Main menu at left top corner and click to **Hospital**.
     Access to 'Hospital' Menu
 
 
+Testing
+=======
+
+For run the module tests, with the following command:
+
+::
+
+    $ /full/path/to/odoo-bin --addons-path=/full/path/to/addons,/full/path/to/extra-addons \
+      -d t -i hospital_sis --test-enable --stop-after-init --log-level=test
+
+
 Contribute
 ==========
 

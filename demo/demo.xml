@@ -7,7 +7,7 @@
             <field name="country_id" ref="base.cl"/>
         </record>
         <record id="hospital1" model="sis.hospital">
-            <field name="nombre">Hospital Universitario</field>
+            <field name="nombre">Hospital Universitario de Los Andes</field>
             <field name="country_id" ref="base.cl"/>
         </record>
 
@@ -47,6 +47,30 @@
         </record>
         <record id="especialidades11" model="sis.especialidades">
             <field name="nombre">Reumatología</field>
+        </record>
+
+        <!-- Laboratorio -->
+        <record id="laboratorio0" model="sis.laboratorios">
+            <field name="nombre">Laboratorio Hematología</field>
+            <field name="user_id" ref="base.user_admin"/>
+            <field name="hospital_id" ref="hospital0"/>
+        </record>
+        <record id="laboratorio1" model="sis.laboratorios">
+            <field name="nombre">Laboratorio Ecocardiografía</field>
+            <field name="user_id" ref="base.user_admin"/>
+            <field name="hospital_id" ref="hospital1"/>
+        </record>
+
+        <!-- Consulta -->
+        <record id="consulta0" model="sis.consultas">
+            <field name="nombre">Hematología</field>
+            <field name="partner_id" ref="base.res_partner_1"/>
+            <field name="especialidades" ref="especialidades2"/>
+        </record>
+        <record id="consulta1" model="sis.consultas">
+            <field name="nombre">Ecocardiografía</field>
+            <field name="partner_id" ref="base.res_partner_1"/>
+            <field name="especialidades" ref="especialidades3"/>
         </record>
 
     </data>
