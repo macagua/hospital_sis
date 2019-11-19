@@ -4,6 +4,7 @@
 from odoo import fields
 from odoo.osv import osv
 
+
 class Especialidades(osv.osv):
     # the model name (in dot-notation, module namespace)
     _name = 'sis.especialidades'
@@ -15,5 +16,6 @@ class Especialidades(osv.osv):
     _order = 'nombre'
 
     nombre = fields.Char(string="Nombre", size=80, required=True, help='Ingrese el nombre de la especialidad')
+
 
 Especialidades();

@@ -4,6 +4,7 @@
 from odoo import fields
 from odoo.osv import osv
 
+
 class Hospital(osv.osv):
     # the model name (in dot-notation, module namespace)
     _name = 'sis.hospital'
@@ -16,5 +17,6 @@ class Hospital(osv.osv):
 
     nombre = fields.Char(string="Nombre del hospital", size=80, required=True, help='Ingrese el nombre del hospital')
     country_id = fields.Many2one(comodel_name='res.country', string="Country", required=False, ondelete='restrict')
+
 
 Hospital();

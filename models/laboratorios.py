@@ -3,6 +3,7 @@
 
 from odoo import api, fields, models
 
+
 class Laboratorios(models.Model):
     # the model name (in dot-notation, module namespace)
     _name = 'sis.laboratorios'
