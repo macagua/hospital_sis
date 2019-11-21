@@ -3,74 +3,74 @@
     <data>
         <!-- Hospital -->
         <record id="hospital0" model="sis.hospital">
-            <field name="nombre">Sor Juana Ines de la Cruz</field>
+            <field name="name">Sor Juana Ines de la Cruz</field>
             <field name="country_id" ref="base.cl"/>
         </record>
         <record id="hospital1" model="sis.hospital">
-            <field name="nombre">Hospital Universitario de Los Andes</field>
+            <field name="name">Hospital Universitario de Los Andes</field>
             <field name="country_id" ref="base.cl"/>
         </record>
 
-        <!-- Especialidades -->
-        <record id="especialidades0" model="sis.especialidades">
-            <field name="nombre">Angiología</field>
+        <!-- Specialty -->
+        <record id="specialty0" model="sis.specialty">
+            <field name="name">Angiology</field>
         </record>
-        <record id="especialidades1" model="sis.especialidades">
-            <field name="nombre">Cardiología</field>
+        <record id="specialty1" model="sis.specialty">
+            <field name="name">Cardiology</field>
         </record>
-        <record id="especialidades2" model="sis.especialidades">
-            <field name="nombre">Ecocardiografía</field>
+        <record id="specialty2" model="sis.specialty">
+            <field name="name">Echocardiography</field>
         </record>
-        <record id="especialidades3" model="sis.especialidades">
-            <field name="nombre">Hematología</field>
+        <record id="specialty3" model="sis.specialty">
+            <field name="name">Hematology</field>
         </record>
-        <record id="especialidades4" model="sis.especialidades">
-            <field name="nombre">Gastroenterología</field>
+        <record id="specialty4" model="sis.specialty">
+            <field name="name">Gastroenterology</field>
         </record>
-        <record id="especialidades5" model="sis.especialidades">
-            <field name="nombre">Ginecología</field>
+        <record id="specialty5" model="sis.specialty">
+            <field name="name">Gynecology</field>
         </record>
-        <record id="especialidades6" model="sis.especialidades">
-            <field name="nombre">Nefrología</field>
+        <record id="specialty6" model="sis.specialty">
+            <field name="name">Nephrology</field>
         </record>
-        <record id="especialidades7" model="sis.especialidades">
-            <field name="nombre">Neonatología</field>
+        <record id="specialty7" model="sis.specialty">
+            <field name="name">Neonatology</field>
         </record>
-        <record id="especialidades8" model="sis.especialidades">
-            <field name="nombre">Neumología</field>
+        <record id="specialty8" model="sis.specialty">
+            <field name="name">Pneumology</field>
         </record>
-        <record id="especialidades9" model="sis.especialidades">
-            <field name="nombre">Oncología</field>
+        <record id="specialty9" model="sis.specialty">
+            <field name="name">Oncology</field>
         </record>
-        <record id="especialidades10" model="sis.especialidades">
-            <field name="nombre">Obstetricia</field>
+        <record id="specialty10" model="sis.specialty">
+            <field name="name">Obstetrics</field>
         </record>
-        <record id="especialidades11" model="sis.especialidades">
-            <field name="nombre">Reumatología</field>
+        <record id="specialty11" model="sis.specialty">
+            <field name="name">Rheumatology</field>
         </record>
 
-        <!-- Laboratorio -->
-        <record id="laboratorio0" model="sis.laboratorios">
-            <field name="nombre">Laboratorio Hematología</field>
+        <!-- Laboratory -->
+        <record id="laboratory0" model="sis.laboratory">
+            <field name="name">Hematology</field>
             <field name="user_id" ref="base.user_admin"/>
             <field name="hospital_id" ref="hospital0"/>
         </record>
-        <record id="laboratorio1" model="sis.laboratorios">
-            <field name="nombre">Laboratorio Ecocardiografía</field>
+        <record id="laboratory1" model="sis.laboratory">
+            <field name="name">Echocardiography</field>
             <field name="user_id" ref="base.user_admin"/>
             <field name="hospital_id" ref="hospital1"/>
         </record>
 
         <!-- Consulta -->
-        <record id="consulta0" model="sis.consultas">
-            <field name="nombre">Hematología</field>
+        <record id="consulta0" model="sis.consultation">
+            <field name="name">Hematology</field>
             <field name="partner_id" ref="base.res_partner_1"/>
-            <field name="especialidades" ref="especialidades2"/>
+            <field name="specialty" ref="specialty2"/>
         </record>
-        <record id="consulta1" model="sis.consultas">
-            <field name="nombre">Ecocardiografía</field>
+        <record id="consulta1" model="sis.consultation">
+            <field name="name">Echocardiography</field>
             <field name="partner_id" ref="base.res_partner_1"/>
-            <field name="especialidades" ref="especialidades3"/>
+            <field name="specialty" ref="specialty3"/>
         </record>
 
     </data>

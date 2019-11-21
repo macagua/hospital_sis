@@ -15,25 +15,25 @@ class TestHospital(common.TransactionCase):
 
         # create an 'hospital' record
         self.hospital1 = self.hospital.create({
-            'nombre': 'Sor Juana Ines de la Cruz',
+            'name': 'Sor Juana Ines de la Cruz',
             'country_id': self.env.ref('base.cl').id,
         })
 
         self.hospital2 = self.hospital.create({
-            'nombre': 'Hospital Universitario de Los Andes',
+            'name': 'Hospital Universitario de Los Andes',
             'country_id': self.env.ref('base.cl').id,
         })
 
     def test_hospitals_creation(self):
         # This function test the 'sis.hospital' instances creation functionality
 
-        # check 'nombre' of the 'hospital1'
-        self.assertEqual(self.hospital1.nombre, 'Sor Juana Ines de la Cruz')
-        _logger.info("Created the {0}'s Hospital!".format(self.hospital1.nombre))
+        # check 'name' of the 'hospital1'
+        self.assertEqual(self.hospital1.name, 'Sor Juana Ines de la Cruz')
+        _logger.info("Created the {0}'s Hospital!".format(self.hospital1.name))
 
-        # check 'nombre' of the 'hospital2'
-        self.assertEqual(self.hospital2.nombre, 'Hospital Universitario de Los Andes')
-        _logger.info("Created the {0}'s Hospital!".format(self.hospital2.nombre))
+        # check 'name' of the 'hospital2'
+        self.assertEqual(self.hospital2.name, 'Hospital Universitario de Los Andes')
+        _logger.info("Created the {0}'s Hospital!".format(self.hospital2.name))
 
         # Do a little print to show it visually for this demo - in production you don't really need this.
         _logger.info("Your 'TestHospital' test was successful!")

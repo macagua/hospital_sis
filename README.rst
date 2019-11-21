@@ -90,6 +90,18 @@ This Odoo module let you manage:
 - manage patients using 'res_company' model overriding with new fields added.
 
 
+Features
+========
+
+This Odoo 13 module include the follow technical features included:
+
+- Data demonstration support.
+
+- Tests units support.
+
+- ACL and security rules customs support.
+
+
 Dependencies
 ============
 
@@ -162,7 +174,16 @@ License
 References
 ==========
 
+The followings are the links using as references for development this Odoo 13 module:
+
+Development
+-----------
+
 - `Curso de programación en Odoo: Clase 05 Crear un Sistema Hospitalario - Chile - Youtube <https://www.youtube.com/watch?v=ibwZs-dL5H8>`_.
+
+
+Quality assurance
+-----------------
 
 - `Automated testing in Odoo <https://www.surekhatech.com/blog/automated-testing-in-odoo>`_.
 

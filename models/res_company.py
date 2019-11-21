@@ -3,7 +3,6 @@
 
 from odoo import fields
 from odoo.osv import osv
-# from odoo.tools.translate import _
 
 
 class res_partner(osv.osv):
@@ -12,9 +11,9 @@ class res_partner(osv.osv):
     # python-inherited models
     _inherit = 'res.partner'
 
-    rut = fields.Char(string="Rut", required=False, size=10, help='Ingrese el RUT')
-    edad = fields.Integer(string="Edad", required=False, size=3, help='Ingrese la edad')
-    profesion = fields.Char(string="Profesión", required=False, size=10, help='Ingrese la profesión')
+    rut = fields.Char(string="RUT", required=False, size=10, help='Enter the RUT')
+    age = fields.Integer(string="Age", required=False, size=3, help='Enter the Age')
+    profession = fields.Char(string="Profession", required=False, size=10, help='Enter the Profession')
 
 
-res_partner();
+res_partner()

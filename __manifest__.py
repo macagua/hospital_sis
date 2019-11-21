@@ -17,12 +17,15 @@
     'sequence': 30,
     'website': 'https://www.marlonfalcon.cl',
     'description': """
-Es un módulo de ejemplo
-======================
-Con este modulo haremos nuestra primera aplicación en Odoo.
- * Uno
- * Dos
-Nota: Necesita Ventas.
+It is an example module
+=======================
+With this module we will make our first application in Odoo.
+
+ * One
+
+ * Two
+
+Note: You need the 'Sales' application.
     """,
     'license': 'AGPL-3',
     'depends': ['sale', 'base_setup', 'product', 'analytic'],
@@ -31,9 +34,9 @@ Nota: Necesita Ventas.
         'security/ir.model.access.csv',
         'views/partner_view.xml',
         'views/hospital_view.xml',
-        'views/especialidades_view.xml',
-        'views/laboratorios_view.xml',
-        'views/consultas_view.xml',
+        'views/specialty_view.xml',
+        'views/laboratory_view.xml',
+        'views/consultation_view.xml',
     ],
     'images': ['static/description/icon.png'],
     'installable': True,
@@ -42,7 +45,4 @@ Nota: Necesita Ventas.
     'demo': [
         'demo/demo.xml',
     ],
-    # 'external_dependencies': {
-    #     'python': [''],
-    # }
 }
