@@ -97,6 +97,8 @@ This Odoo 13 module include the follow technical features included:
 
 - Data demonstration support.
 
+- Internationalisation (i18n) support.
+
 - Tests units support.
 
 - ACL and security rules customs support.
@@ -189,3 +191,10 @@ Quality assurance
 
 - `Odoo Experience 2018 - Improve the Quality of Your Modules with Automated Tests <https://www.youtube.com/watch?v=jZddEWFdUcM>`_.
 
+
+Translations
+------------
+
+- `Language Translation in Odoo 12 <https://www.cybrosys.com/blog/language-translation-odoo-12>`_.
+
+- `How to load translations in Odoo <https://www.youtube.com/watch?v=ce5zMG7EGtE>`_.
