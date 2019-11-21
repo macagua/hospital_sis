@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields
-from odoo.osv import osv
+from odoo import fields, models
 
 
-class Specialty(osv.osv):
+class Specialty(models.Model):
     # the model name (in dot-notation, module namespace)
     _name = 'sis.specialty'
     # field to use for labeling records
@@ -16,6 +14,3 @@ class Specialty(osv.osv):
     _order = 'name'
 
     name = fields.Char(string="Name", size=80, required=True, help='Enter the Specialty Name')
-
-
-Specialty()

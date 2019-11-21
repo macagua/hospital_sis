@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# Do a little print to show it visually for this demo - in production you don't really need this.
 
 import logging
 from odoo.tests import common
@@ -43,5 +43,4 @@ class TestLaboratory(common.TransactionCase):
             self.env.ref('hospital_sis.hospital1').name)
         )
 
-        # Do a little print to show it visually for this demo - in production you don't really need this.
         _logger.info("Your 'TestLaboratory' test was successful!")

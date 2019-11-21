@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 import logging
 from odoo.tests import common
@@ -43,5 +43,4 @@ class TestConsultation(common.TransactionCase):
             self.env.ref('hospital_sis.hospital1').name)
         )
 
-        # Do a little print to show it visually for this demo - in production you don't really need this.
         _logger.info("Your 'TestConsultation' test was successful!")

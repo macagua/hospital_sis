@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# Do a little print to show it visually for this demo - in production you don't really need this.
 
 import logging
 from odoo.tests import common
@@ -33,5 +33,4 @@ class TestSpecialty(common.TransactionCase):
         self.assertEqual(self.specialty2.name, 'Cardiology')
         _logger.info("Created the {0}'s Specialty!".format(self.specialty2.name))
 
-        # Do a little print to show it visually for this demo - in production you don't really need this.
         _logger.info("Your 'TestSpecialty' test was successful!")

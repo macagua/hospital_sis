@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields
-from odoo.osv import osv
+from odoo import fields, models
 
 
-class Hospital(osv.osv):
+class Hospital(models.Model):
     # the model name (in dot-notation, module namespace)
     _name = 'sis.hospital'
     # field to use for labeling records
@@ -15,8 +13,7 @@ class Hospital(osv.osv):
     # default order field for searching results
     _order = 'name'
 
-    name = fields.Char(string="Hospital Name", size=80, required=True, help='Enter the Hospital Name')
-    country_id = fields.Many2one(comodel_name='res.country', string="Country", required=False, ondelete='restrict')
-
-
-Hospital()
+    name = fields.Char(string="Hospital Name", size=80, required=True,
+                       help='Enter the Hospital Name')
+    country_id = fields.Many2one(comodel_name='res.country', string="Country",
+                                 required=False, ondelete='restrict')
