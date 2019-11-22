@@ -1,4 +1,4 @@
-# Do a little print to show it visually for this demo - in production you don't really need this.
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 import logging
 from odoo.tests import common

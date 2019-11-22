@@ -3,7 +3,7 @@
 from odoo import fields, models
 
 
-class res_partner(models.Model):
+class ResPartner(models.Model):
     # the model name (in dot-notation, module namespace)
     _name = 'res.partner'
     # python-inherited models
